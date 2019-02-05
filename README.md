@@ -88,7 +88,7 @@ permissions to execute it).
 
 ## Debugging
 ### Compilation of the project
-The compilation might failed if the following files dont have the permission to execute:
+The compilation might fail if the following files dont have the permission to execute:
 - /src/libcdk13-201802181144/mk-node-decls.pl
 - /src/libcdk13-201802181144/mk-visitor-decls.pl
 
