@@ -51,8 +51,8 @@ ast/visitor_decls.h: ./mk-visitor-decls.pl
 
 doc/.docsdone: $(LIBNAME).doxyfile
 	$(RM) cdk
-	doxygen $<
-	touch $@
+	#doxygen $<
+	#touch $@
 	if [ ! -e cdk ]; then ln -s . cdk; fi
 
 $(LIBNAME).doxyfile: $(SRC_CPP)
