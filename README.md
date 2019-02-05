@@ -1,4 +1,4 @@
-# Comp 2017-2018
+# Comp - 2017/2018
 Compilers Project - Language GR8
 
 ## Introduction
